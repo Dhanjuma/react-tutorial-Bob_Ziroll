@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css2?family=Gentium+Book+Plus:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    /* padding: 0; */
+}
+
+body{
+    /* max-width: 100%; */
+    font-family: 'Gentium Book Plus', serif;
+    font-weight: 700;
+
+    /* background-color: #282d35; */
+    /* color: antiquewhite; */
+}
+
+.container{
+    /* display: flexbox; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    text-align: center;
+    /* padding-top: 0px; */
+    /* padding-bottom: 0px; */
+    /* padding-left: 50px;
+    padding-right: 50px; */
+    /* background-color: #4f3a77; */
+    /* border: 2px solid white; */
+
+}
+
+.details{
+    padding-top: 10px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    /* padding-top: 0px;
+    padding-bottom: 0px; */
+    /* margin: 30px 120px; */
+    margin-left: 50px;
+    margin-right: 50px;
+    background-color: aliceblue;
+    /* border-radius: 15px; */
+
+}
+
+img{
+    border-radius: 8px;
+    max-width: 100%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 100%;
+    object-fit: cover;
+}
+
+/* polaroid
+.img{
+width: 80%;
+background-color: white;
+box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+img{
+    width: 100%;
+}
+.img > h2{
+    text-align: center;
+    padding: 10px 20px;
+} */
+
+button{
+    font-weight: 600;
+    font-size: 16px;
+    padding: 7px 14px;
+    margin-left: 10px;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 12px;
+    transition-duration: 0.2s;
+}
+
+button:hover{
+    /* padding: 10px;  */
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.24), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.btn1{
+    background-color: #330a68;
+    color: aliceblue;
+}
+
+.btn2{
+    background-color: #5c0d5c;
+    color: aliceblue;
+}
+
+.quote{
+    background-color: rgb(128, 115, 115);
+    color: rgb(10, 5, 12);
+    padding: 15px;
+    font-style: italic;
+    border-radius: 8px;
+}
+
+.footer{
+    /* text-align: center; */
+    /* padding: 15px; */
+    background-color: #e1c9e9;
+    display: flex;
+    /* align-items: center; */
+    /* justify-content: space-between; */
+    align-items: center;
+    /* padding-left: 80px; */
+    /* padding-right: 80px; */
+    /* margin-top: 32px; */
+    margin-bottom: 20px;
+    /* padding-top: 0px;
+    padding-bottom: 0px; */
+    /* margin: 30px 120px; */
+    margin-left: 50px;
+    margin-right: 50px;
+    padding: 15px 25px;
+    /* height: 40px; */
+
+    /* border-radius: 5px; */
+    /* background-color: aliceblue; */
+}
+
+.footer--text{
+    padding-left: 15px;
+    padding-right: 25px;
+    font-weight: 700;
+    /* color: rgb(241, 201, 240) */
+}
+
+a.social{
+    margin: 0 1rem;
+    transition: transform 250ms;
+    display: inline-block;
+    text-decoration: none;
+    /* color: inherit; */
+    /* all:unset */
+}
+
+a.social:hover {
+    transform: translateY(-2px);
+}
+
+a.facebook{
+    color: #4267b2;
+    font-size: 15px;
+}
+
+a.ig{
+    color: #e4405f;
+    font-size: 15px;
+}
+
+a.twitter{
+    color: #1da1f2;
+    font-size: 15px;
+}
+
+a.snapchat{
+    color: #fffc00;
+    font-size: 15px;
+}
+
+a.whatsapp{
+    color: #25d366;
+    font-size: 15px;
+}
+.logo--ig{
+    width: 25px;
+    /* margin: 0px 5px; */
+    /* margin-right: 0px; */
+    /* padding-left: 0px;
+    margin: auto;
+    padding-right: 0px; */
+}
+
+.logo--twitter{
+    width: 25px;
+    /* margin: 0px 5px; */
+    /* padding-left: 0px;
+    padding-right: 0px;
+    margin: auto; */
+}
+
+.logo--spotify{
+    width: 25px;
+    /* margin: 0px 5px; */
+    /* padding-left: 0px;
+    padding-right: 0px;
+   margin: auto; */
+}
+
+.logo--youtube{
+    width: 25px;
+    /* margin: 0px 5px; */
+    /* padding-left: 0px;
+    padding-right: 0px;
+    margin: auto; */
+}
+
+.logo--music{
+    width: 65px;
+    /* margin: 0px 5px; */
+    /* padding-left: 0px;
+    padding-right: 0px;
+    margin: auto; */
+}

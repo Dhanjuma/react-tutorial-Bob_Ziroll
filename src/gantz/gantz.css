@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Gentium+Book+Plus:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    /* padding: 0; */
+}
+
+body{
+    font-family: 'Gentium Book Plus', serif;
+    font-weight: 500;
+    /* background-color: #606977; */
+    /* color: white; */
+    /* text-align:calc(10px) */
+}
+
+.content{
+    margin: 12px 50px;
+}
+
+/* .img--content{
+    margin: 12px 50px;
+} */
+
+.img{
+    /* width: 100%; */
+    margin-bottom: 10px;
+}
+
+/* img{
+    height: 100vh;
+} */
+
+h2{
+    color: rgb(56, 6, 54);
+}
+
+.title{
+    
+    font-size: 60px;
+    /* padding-left: 20px; */
+}
+
+.btns{
+    display: flex;
+    gap: 30px;
+    /* margin: 30px 30px; */
+    /* justify-content: space-around; */
+}
+
+button{
+    font-weight: 600;
+    font-size: 16px;
+    padding: 7px 0px;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 12px;
+    transition: all 1s ease;
+    /* transition-duration: 0.2s; */
+}
+
+button:hover{
+    /* padding: 0px 60px;  */
+    /* padding: 10px 10px; */
+    transform: scale(1.2) perspective(1px);
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.24), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    /* transform: translate(0px, 6px); */
+    /* transition: 0.4s; */
+}
+
+.btn--anime{
+    padding: 7px 14px;
+    background-color: rgb(56, 6, 54);
+    color: white;
+      /* margin: 30px 30px; */
+    /* overflow: hidden; */
+    /* transform: scale(1); */
+}
+
+
+.btn--manga{
+    padding: 7px 14px;
+    color: antiquewhite;
+    background-color: rgb(75, 10, 10);
+    /* margin-left: 10px; */
+}
+ 
+.btn--n{
+    padding: 7px 14px;
+    color: antiquewhite;
+    background-color: rgb(135, 64, 216);
+    /* margin-left: 10px; */
+}
+
+.btn--p{
+    padding: 7px 14px;
+    background-color: rgb(133, 93, 93);
+    color: white;
+}
+
+li{
+    font-family: 'Gentium Book Plus', serif;
+    font-size: medium;
+}
+
+footer{
+        /* background-color: #1b1d20; */
+        /* height: 70px; */
+        background: rgb(212, 208, 208);
+        padding: 25px 50px;
+        display: flex;
+        align-items: center;
+        margin-top: 60px;
+}
+
+.footer--text{
+    padding-left: 15px;
+    padding-right: 25px;
+    font-weight: 700;
+    /* color: rgb(241, 201, 240) */
+}
+
+a.social{
+    margin: 0 1rem;
+    transition: transform 250ms;
+    display: inline-block;
+    text-decoration: none;
+    /* color: inherit; */
+    /* all:unset */
+}
+
+a.social:hover {
+    transform: translateY(-2px);
+}
+
+a.facebook{
+    color: #4267b2;
+    font-size: 20px;
+}
+
+a.ig{
+    color: #e4405f;
+    font-size: 20px;
+}
+
+a.twitter{
+    color: #1da1f2;
+    font-size: 20px;
+}
+
+a.snapchat{
+    color: #fffc00;
+    font-size: 20px;
+}
+
+a.whatsapp{
+    color: #25d366;
+    font-size: 20px;
+}
