@@ -4,12 +4,12 @@ export class ImageSlider extends React.Component {
   state = {
     images: [
       // require("./images/gantz (1).jpg"),
-      require("./images/gantz (2).jpg"),
+      require("./images/gantz (1).jpg"),
       // require("./images/gantz (3).jpg"),
+      require("./images/gantz (2).jpg"),
+      require("./images/gantz (3).jpg"),
       require("./images/gantz (4).jpg"),
       require("./images/gantz (5).jpg"),
-      require("./images/gantz (6).jpg"),
-      require("./images/gantz (7).jpg"),
     ],
     index: 0,
   };

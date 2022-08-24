@@ -1,4 +1,5 @@
 import "./App.css";
+// import { Profile } from "./danjuma/profile";
 import { Complete } from "./gantz/complete";
 // import { Bio } from "./personal1/bio";
 // import { Page } from "./comp/page";
@@ -11,6 +12,7 @@ function App() {
       {/* <Render /> */}
       {/* <Bio /> */}
       <Complete />
+      {/* <Profile /> */}
     </div>
   );
 }
