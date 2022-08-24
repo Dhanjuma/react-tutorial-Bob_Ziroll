@@ -32,7 +32,7 @@ export class ImageSlider extends React.Component {
         <div className="img">
           <img
             style={{
-              width: "90%",
+              width: "100%",
               //   height: "auto",
               objectFit: "cover",
             }}
