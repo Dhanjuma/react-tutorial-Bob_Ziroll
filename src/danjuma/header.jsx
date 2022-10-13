@@ -1,9 +1,17 @@
 import React from "react";
 import "./profile.css";
 import { FaEnvelope } from "react-icons/fa";
-import img from "..//personal1/img.JPG";
+import img from "./image.JPG";
 
 export const Info = () => {
+  // const ref = useRef(null);
+
+  // useEffect(() => {
+  //   console.log("width", ref.current.offsetWidth);
+  // }, []);
+  // ref = { ref }
+  // { useEffect, useRef }
+
   return (
     <div className="inn">
       <div className="fill">

@@ -1,9 +1,9 @@
 import React from "react";
 import "./test1.css";
 
-export const Main = () => {
+export const Main = (props) => {
   return (
-    <main className="main--content">
+    <main className={props.darkMode ? "dark" : ""}>
       <h1 className="main--title">Fun facts about React</h1>
       <ul className="main--list">
         <li>Was first released in 2013</li>

@@ -6,7 +6,7 @@ import { Interests } from "./interests";
 
 export const Profile = () => {
   return (
-    <div>
+    <div className="profile">
       <Info />
       <About />
       <Interests />

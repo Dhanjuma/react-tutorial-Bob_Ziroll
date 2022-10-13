@@ -7,7 +7,7 @@ import { Plot } from "./plot";
 
 export const Complete = () => {
   return (
-    <main>
+    <main className="complete">
       <ImageSlider />
       <Header />
       <Plot />

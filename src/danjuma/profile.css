@@ -1,173 +1,178 @@
-@import url('https://fonts.googleapis.com/css2?family=Andika:ital,wght@0,400;0,700;1,400;1,700&family=Gentium+Book+Plus:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Andika:ital,wght@0,400;0,700;1,400;1,700&family=Gentium+Book+Plus:ital,wght@0,400;0,700;1,400;1,700&display=swap");
 
-*{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
-body{
-    font-family: 'Andika', sans-serif;
-    /* font-family: 'Gentium Book Plus', serif; */
-    color: #fdfdfd;
-    border: 1px solid #463f3f;
-    /* font-weight: 700; */
+.profile {
+  font-family: "Andika", sans-serif;
+  /* font-family: 'Gentium Book Plus', serif; */
+  color: #fdfdfd;
+  /* border: 1px solid #463f3f; */
+  /* font-weight: 700; */
 }
 
-.fill{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    overflow: hidden;
-    border-radius: 15px 15px 0 0;
+.fill {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  border-radius: 15px 15px 0 0;
 }
 
-.fill-img{
-    object-fit: cover;
-    flex-shrink: 0;
-    min-width: 100%;
-    min-height: 100%;
-    border-radius: 15px 15px 0 0;
+.fill-img {
+  /* object-fit: cover; */
+  /* flex-shrink: 0; */
+  /* min-width: 100%; */
+  /* min-height: 100%; */
+  border-radius: 15px 15px 0 0;
 }
 
-.inn{
-    display: flex;
-    flex-direction: column;
-    background-color: #463f3f;
-    margin-top: 30px;
-    margin-left: 60px;
-    margin-right: 60px;
-    border-radius: 15px 15px 0 0;
-    /* align-items: center; */
-    text-align: center;
+.profile img {
+  width: 100%;
+  /* height: 20%; */
+  object-fit: cover;
+  /* object-position: top; */
 }
 
-.inn-txt{
-    margin-bottom: 20px;
-    margin-top: 25px;
-    
+.inn {
+  display: flex;
+  flex-direction: column;
+  background-color: #463f3f;
+  margin-top: 30px;
+  margin-left: 60px;
+  margin-right: 60px;
+  border-radius: 15px 15px 0 0;
+  /* align-items: center; */
+  text-align: center;
 }
 
-.inn-txt-p{
-    color: #e66363;
+.inn-txt {
+  margin-bottom: 20px;
+  margin-top: 25px;
 }
 
-.inn-btn-container{
-    margin-left: 35px;
-    margin-right: 28px;
-    display: flex; 
-    justify-content: center;
-    align-items: center;
+.inn-txt-p {
+  color: #e66363;
 }
 
-.inn-btn{
-    font-size: medium;
-    font-weight: 700;
-    display: flex;
-    /* gap: 3px; */
-    width: 100%;
-    border: none;
-    padding: 14px 28px;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 50px;
+.inn-btn-container {
+  margin-left: 35px;
+  margin-right: 28px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.inn-btn {
+  font-size: medium;
+  font-weight: 700;
+  display: flex;
+  /* gap: 3px; */
+  width: 100%;
+  border: none;
+  padding: 14px 28px;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
 }
 
 /* h3{
     margin-bottom: 20px;
 } */
-.about{
-    margin-left: 60px;
-    margin-right: 60px;
-    /* margin-top: 30px; */
-    background-color: #463f3f;
+.about {
+  margin-left: 60px;
+  margin-right: 60px;
+  /* margin-top: 30px; */
+  background-color: #463f3f;
 }
 
-.about-txt{
-    /* margin-bottom: 20px; */
-    margin-left: 35px;
-    margin-right: 28px;
-    /* margin-top: 12px; */
+.about-txt {
+  /* margin-bottom: 20px; */
+  margin-left: 35px;
+  margin-right: 28px;
+  /* margin-top: 12px; */
 }
 
-.interest{
-    margin-left: 60px;
-    margin-right: 60px;
-    background-color: #463f3f;
+.interest {
+  margin-left: 60px;
+  margin-right: 60px;
+  background-color: #463f3f;
 }
 
-.interest-txt{
-    /* margin-bottom: 30px; */
-    margin-left: 35px;
-    margin-right: 28px;
-    /* margin-top: 12px; */
+.interest-txt {
+  /* margin-bottom: 30px; */
+  margin-left: 35px;
+  margin-right: 28px;
+  /* margin-top: 12px; */
 }
 
 /* .footer{ */
-    /* margin-left: 60px; */
-    /* margin-right: 60px; */
-    /* margin-bottom: 30px; */
-    /* padding: 25px 50px; */
-    /* display: flex; */
-    /* align-items: center; */
-    /* justify-content: space-between; */
-    /* margin-top: 60px; */
+/* margin-left: 60px; */
+/* margin-right: 60px; */
+/* margin-bottom: 30px; */
+/* padding: 25px 50px; */
+/* display: flex; */
+/* align-items: center; */
+/* justify-content: space-between; */
+/* margin-top: 60px; */
 /* } */
 
-.social{
-    background-color: #796c6c;
-    /* height: 70px; */
-     /* padding: 25px 50px; */
-    display: flex;
-    /* align-content: center; */
-    gap: 2%;
-    justify-content: center;
-    /* align-items: center; */
-    margin-left: 60px;
-    margin-right: 60px;
-    margin-bottom: 30px;
-    /* margin-top: 60px; */
-    /* align-self: center; */
-    border-radius: 0 0 10px 10px;
+.social {
+  background-color: #796c6c;
+  /* height: 70px; */
+  /* padding: 25px 50px; */
+  display: flex;
+  /* align-content: center; */
+  gap: 2%;
+  justify-content: center;
+  /* align-items: center; */
+  margin-left: 60px;
+  margin-right: 60px;
+  margin-bottom: 30px;
+  /* margin-top: 60px; */
+  /* align-self: center; */
+  border-radius: 0 0 10px 10px;
 }
 
-
-a.social{
-    margin: 10px 0;
-    transition: transform 250ms;
-    display: inline-block;
-    text-decoration: none;
-    /* color: inherit; */
-    /* all:unset */
+.profile a.social {
+  margin: 10px 0;
+  transition: transform 250ms;
+  display: inline-block;
+  text-decoration: none;
+  /* color: inherit; */
+  /* all:unset */
 }
 
-a.social:hover {
-    /* transform: translateY(-2px); */
-    /* fade: 2s;  */
-    opacity: 0.6;
+.profile a.social:hover {
+  /* transform: translateY(-2px); */
+  /* fade: 2s;  */
+  opacity: 0.6;
 }
 
-a.facebook{
-    color: #e0e7f5;
-    font-size: 30px;
+.profile a.facebook {
+  color: #e0e7f5;
+  font-size: 30px;
 }
 
-a.ig{
-    color: #e0e7f5;
-    font-size: 30px;
+.profile a.ig {
+  color: #e0e7f5;
+  font-size: 30px;
 }
 
-a.twitter{
-    color: #e0e7f5;
-    font-size: 30px;
+.profile a.twitter {
+  color: #e0e7f5;
+  font-size: 30px;
 }
 
-a.snapchat{
-    color: #e0e7f5;
-    font-size: 30px;
+.profile a.snapchat {
+  color: #e0e7f5;
+  font-size: 30px;
 }
 
-a.whatsapp{
-    color: #e0e7f5;
-    font-size: 30px;
+.profile a.whatsapp {
+  color: #e0e7f5;
+  font-size: 30px;
 }

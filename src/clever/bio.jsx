@@ -6,7 +6,7 @@ import { Info } from "./info";
 
 export const Bio = () => {
   return (
-    <div>
+    <div className="bio">
       <Info />
       <About />
       {/* <Interest /> */}

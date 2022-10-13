@@ -24,41 +24,43 @@ export const Plot = () => {
         X-Shotgun, Y-Gun. Later on the series the Gantz sword, Gantz Bike are
         made available as well as much more powerful weapons are awarded in the
         100 point menu.
-        <p>
+      </p>
+      <p>
+        {" "}
+        When the Gantz sphere opens, green text appears on its surface,
+        informing those present that their "lives have ended and now belong to
+        him". A picture and brief information is shown of some of the
+        <span style={{ fontWeight: "bold" }}> Gantz' targets;</span> Gantz
+        orders them to go and kill them. Except for a single mission, all the
+        targets are aliens living on Earth, which take on a wide variety of
+        forms. During the mission, normal people cannot see the players or the
+        aliens. Gantz transports them to the area of the mission, and they
+        cannot leave or return until all the enemies have been killed, or the
+        time limit has run out. If they survive a successful mission, each
+        individual is awarded points for the aliens they have killed. Once a
+        participant has scored 100 points, a "100 point menu" will appear. The
+        menu offers three options:
+      </p>
+      <ul>
+        <li>
           {" "}
-          When the Gantz sphere opens, green text appears on its surface,
-          informing those present that their "lives have ended and now belong to
-          him". A picture and brief information is shown of some of the
-          <span style={{ fontWeight: "bold" }}>Gantz' targets;</span> Gantz
-          orders them to go and kill them. Except for a single mission, all the
-          targets are aliens living on Earth, which take on a wide variety of
-          forms. During the mission, normal people cannot see the players or the
-          aliens. Gantz transports them to the area of the mission, and they
-          cannot leave or return until all the enemies have been killed, or the
-          time limit has run out. If they survive a successful mission, each
-          individual is awarded points for the aliens they have killed. Once a
-          participant has scored 100 points, a "100 point menu" will appear. The
-          menu offers three options:
-        </p>
-        <ul>
-          <li>
-            {" "}
-            <span style={{ fontWeight: "bold" }}>Option 1:</span> The
-            participant can return to their normal life, never having to be
-            summoned by Gantz again. As a price, their memories of Gantz and the
-            missions will be erased.{" "}
-          </li>
-          <li>
-            <span style={{ fontWeight: "bold" }}>Option 2:</span> The
-            participant obtains a unique and extremely powerful weapon.
-          </li>
-          <li>
-            {" "}
-            <span style={{ fontWeight: "bold" }}>Option 3:</span> The
-            participant can revive someone who has died during a mission from
-            Gantz' memory. This option appeared halfway through the series.
-          </li>
-        </ul>
+          <span style={{ fontWeight: "bold" }}>Option 1:</span> The participant
+          can return to their normal life, never having to be summoned by Gantz
+          again. As a price, their memories of Gantz and the missions will be
+          erased.{" "}
+        </li>
+        <li>
+          <span style={{ fontWeight: "bold" }}>Option 2:</span> The participant
+          obtains a unique and extremely powerful weapon.
+        </li>
+        <li>
+          {" "}
+          <span style={{ fontWeight: "bold" }}>Option 3:</span> The participant
+          can revive someone who has died during a mission from Gantz' memory.
+          This option appeared halfway through the series.
+        </li>
+      </ul>
+      <p>
         After a mission has been completed, points are tallied up, the
         participants are allowed to leave and do as they see fit until their
         next mission, with the exception of talking about Gantz which would lead

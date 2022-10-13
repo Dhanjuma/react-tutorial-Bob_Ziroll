@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Andika:ital,wght@0,400;0,700;1,400;1,700&family=Gentium+Book+Plus:ital,wght@0,400;0,700;1,400;1,700&family=Karla:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+.joke-container {
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: center;
+  gap: 20px;
+  margin: 10px;
+  flex-wrap: wrap;
+  font-family: "Karla", sans-serif;
+}
+
+.body {
+  background-color: rgb(130, 133, 132);
+  margin: 10px;
+  padding: 12px;
+  flex-basis: 300px;
+  border-radius: 10px;
+  box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.25);
+}
+
+.body p {
+  /* font-weight: 600; */
+  font-style: italic;
+}
