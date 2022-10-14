@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Gentium+Book+Plus:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Andika:ital,wght@0,400;0,700;1,400;1,700&family=Fira+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,700&family=Gentium+Book+Plus:ital,wght@0,400;0,700;1,400;1,700&family=Karla:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
 * {
   box-sizing: border-box;
@@ -8,9 +8,9 @@
 
 .bio {
   /* max-width: 100%; */
-  font-family: "Gentium Book Plus", serif;
-  font-weight: 700;
-
+  font-family: "Karla", serif;
+  font-weight: 600;
+  line-height: 1.5rem;
   /* background-color: #282d35; */
   /* color: antiquewhite; */
 }
@@ -98,7 +98,11 @@ img{
   background-color: rgb(128, 115, 115);
   color: rgb(10, 5, 12);
   padding: 15px;
-  font-style: italic;
+  font-family: "Fira Sans", serif;
+  font-weight: 700;
+  line-height: 2rem;
+  letter-spacing: 1.5px;
+  /* font-style: italic; */
   border-radius: 8px;
 }
 
@@ -119,7 +123,7 @@ img{
   /* margin: 30px 120px; */
   margin-left: 50px;
   margin-right: 50px;
-  padding: 15px 25px;
+  padding: 10px;
   /* height: 40px; */
 
   /* border-radius: 5px; */
@@ -127,86 +131,51 @@ img{
 }
 
 .footer--text {
-  padding-left: 15px;
-  padding-right: 25px;
+  /* padding-left: 10px; */
+  /* padding-right: 25px; */
   font-weight: 700;
+  font-size: 1rem;
   /* color: rgb(241, 201, 240) */
 }
 
-.bio a.social {
-  margin: 0 1rem;
+.bio .socials {
+  /* background-color: inherit; */
   transition: transform 250ms;
-  display: inline-block;
-  text-decoration: none;
+  border: none;
+  /* display: inline-block; */
+  display: flex;
+  gap: 6px;
+  flex-wrap: wrap;
   /* color: inherit; */
   /* all:unset */
 }
 
-.bio a.social:hover {
+.bio a.socials {
+  text-decoration: none;
+  /* background-color: #e1c9e9; */
+  font-size: 1.5rem;
+}
+
+.bio a.socials:hover {
   transform: translateY(-2px);
 }
 
 .bio a.facebook {
   color: #4267b2;
-  font-size: 15px;
 }
 
 .bio a.ig {
   color: #e4405f;
-  font-size: 15px;
 }
 
 .bio a.twitter {
   color: #1da1f2;
-  font-size: 15px;
 }
 
 .bio a.snapchat {
   color: #fffc00;
-  font-size: 15px;
 }
 
 .bio a.whatsapp {
   color: #25d366;
-  font-size: 15px;
-}
-.logo--ig {
-  width: 25px;
-  /* margin: 0px 5px; */
-  /* margin-right: 0px; */
-  /* padding-left: 0px;
-    margin: auto;
-    padding-right: 0px; */
-}
-
-.logo--twitter {
-  width: 25px;
-  /* margin: 0px 5px; */
-  /* padding-left: 0px;
-    padding-right: 0px;
-    margin: auto; */
-}
-
-.logo--spotify {
-  width: 25px;
-  /* margin: 0px 5px; */
-  /* padding-left: 0px;
-    padding-right: 0px;
-   margin: auto; */
-}
-
-.logo--youtube {
-  width: 25px;
-  /* margin: 0px 5px; */
-  /* padding-left: 0px;
-    padding-right: 0px;
-    margin: auto; */
-}
-
-.logo--music {
-  width: 65px;
-  /* margin: 0px 5px; */
-  /* padding-left: 0px;
-    padding-right: 0px;
-    margin: auto; */
 }

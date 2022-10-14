@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Andika:ital,wght@0,400;0,700;1,400;1,700&family=Gentium+Book+Plus:ital,wght@0,400;0,700;1,400;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Andika:ital,wght@0,400;0,700;1,400;1,700&family=Fira+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,700&family=Gentium+Book+Plus:ital,wght@0,400;0,700;1,400;1,700&family=Karla:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
 * {
   /* box-sizing: border-box; */
@@ -7,10 +7,10 @@
 }
 
 .airbnb {
-  font-family: "Poppins", sans-serif;
+  font-family: "Fira Sans", sans-serif;
 }
 
-.nav {
+.airbnb .nav {
   height: 70px;
   background: #ffffff;
   box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
@@ -28,15 +28,17 @@
   flex-direction: column;
 }
 
-.airbnb .img--container {
-  margin-left: 80px;
+/* .airbnb .img--container { */
+/* margin-left: 80px;
   margin-right: 60px;
-}
+} */
 
 .static--img {
-  padding-top: 30px;
-  padding-bottom: 40px;
-  width: 100%;
+  /* padding-top: 30px; */
+  /* padding-bottom: 40px; */
+  width: 60vw;
+  margin-left: 80px;
+  margin-right: 60px;
 }
 
 .airbnb .txt--container {
@@ -91,16 +93,19 @@
 }
 
 .card {
-  width: 175px;
+  line-height: 1.25rem;
+  width: 20vw;
+  /* margin: 10px; */
   font-size: 12px;
   flex: 0 0 auto; /* ADD */
   display: flex; /* ADD */
   flex-direction: column; /* ADD */
   position: relative;
+  flex-wrap: wrap;
 }
 
 .card--image {
-  width: 100%;
+  width: 20vw;
   border-radius: 9px;
   margin-bottom: 9px;
 }
@@ -112,11 +117,14 @@
 
 .card--stats {
   display: flex;
+  flex-wrap: wrap;
+  gap: 2px;
   align-items: center;
 }
 
 .card--star {
-  height: 14px;
+  height: 10px;
+  align-self: center;
 }
 
 /* ADD */
@@ -136,7 +144,7 @@
 
 @media screen and (min-width: 950px) {
   .static--img {
-    width: 80%;
+    width: 80vw;
     object-fit: cover;
   }
 }
@@ -156,6 +164,6 @@
 @media screen and (min-width: 600px) {
   .airbnb .imgs--container {
     justify-content: flex-end;
-    margin-right: 35%;
+    margin-right: 35vw;
   }
 }

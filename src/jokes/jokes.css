@@ -14,7 +14,10 @@
   background-color: rgb(130, 133, 132);
   margin: 10px;
   padding: 12px;
+  display: flex;
   flex-basis: 300px;
+  flex-direction: column;
+  gap: 2rem;
   border-radius: 10px;
   box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.25);
 }
@@ -22,4 +25,5 @@
 .body p {
   /* font-weight: 600; */
   font-style: italic;
+  text-transform: uppercase;
 }

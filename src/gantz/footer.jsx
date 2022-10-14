@@ -15,32 +15,32 @@ export const Footer = () => {
       <small className="footer--text">
         All rights reserved. Yahaya Abdullah Danjuma 2022 ©.{" "}
       </small>
-      <div className="social">
+      <div className="social-accts">
         {" "}
-        <a href="https://www.instagram.com/dan_jhuma" className="social ig">
+        <a href="https://www.instagram.com/dan_jhuma" className="accts ig">
           {" "}
           <FaInstagram />
         </a>
-        <a href="https://twitter.com/_dhanjuma" className="social twitter">
+        <a href="https://twitter.com/_dhanjuma" className="accts twitter">
           {" "}
           <FaTwitter />
         </a>
         <a
           href="https://www.facebook.com/danjuma.yahaya.54943"
-          className="social facebook"
+          className="accts facebook"
         >
           <FaFacebook />
         </a>
         <a
           href="https://api.whatsapp.com/send?phone=%2B2348104203088&text&app_absent=0"
-          className="social whatsapp"
+          className="accts whatsapp"
         >
           {" "}
           <FaWhatsapp />
         </a>
         <a
           href="https://www.snapchat.com/add/dhanjuma?share_id=NUM5NkEzQjQtNUFDRC00Qzc1LUE4QTEtOTkwQkQ0RUFEMTE2&locale=en_NG"
-          className="social snapchat"
+          className="accts snapchat"
         >
           {" "}
           <FaSnapchat />

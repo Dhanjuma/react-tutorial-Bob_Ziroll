@@ -17,9 +17,10 @@
 
 .travel-container {
   display: flex;
-  margin-left: 20px;
-  margin-top: 20px;
-  margin-right: 20px;
+  /* margin-left: 20px; */
+  /* margin-top: 20px; */
+  margin: 20px;
+  margin-bottom: 60px;
   gap: 20px;
   align-items: center;
 }
@@ -52,19 +53,20 @@
   color: #918e9b;
 }
 
-.social {
-  background-color: #f7f4f4;
+.wrapper .social {
+  background-color: #cac6c6;
   display: flex;
   gap: 2%;
   justify-content: center;
-  box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.25);
+  /* border-top: 1px 1px 8px rgba(27, 8, 8, 0.5); */
 }
 
 .wrapper a.social {
-  margin: 10px 0;
-  transition: transform 250ms;
-  display: inline-block;
+  margin: 20px 0;
+  /* transition: transform 250ms; */
+  /* display: inline-block; */
   text-decoration: none;
+  font-size: 40px;
 }
 
 .wrapper a.social:hover {
@@ -73,22 +75,18 @@
 
 .wrapper a.whatsapp {
   color: #25d366;
-  font-size: 30px;
 }
 
 .wrapper a.facebook {
   color: #4267b2;
-  font-size: 30px;
 }
 
 .wrapper a.ig {
   color: #e4405f;
-  font-size: 30px;
 }
 
 .wrapper a.twitter {
   color: #1da1f2;
-  font-size: 30px;
 }
 
 .wrapper {

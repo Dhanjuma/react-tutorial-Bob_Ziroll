@@ -60,7 +60,7 @@ list-style: none;
 .all {
   display: flex;
   flex-direction: column;
-  margin-bottom: 1rem;
+  /* margin-bottom: 1rem; */
   background: rgb(64, 65, 70);
   /* height: 100vh; */
 }

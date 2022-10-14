@@ -36,6 +36,7 @@ function App() {
         <div className="all">
           <form className="form" onSubmit={handleSubmit}>
             <select onChange={handleChange} name="toRender">
+              <option value="reactFact">ReactFact</option>
               <option value="airbnb">AirBnb</option>
               <option value="card">Card</option>
               <option value="clever">Clever</option>
@@ -43,7 +44,6 @@ function App() {
               <option value="gantz">Gantz</option>
               <option value="jokes">Jokes</option>
               <option value="memeGenerator">MemeGenerator</option>
-              <option value="reactFact">ReactFact</option>
               <option value="tenzies">Tenzies</option>
               <option value="travelJournal">TravelJournal</option>
             </select>

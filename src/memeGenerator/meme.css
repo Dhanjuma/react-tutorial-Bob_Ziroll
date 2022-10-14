@@ -74,6 +74,7 @@
 .field-img {
   max-width: 100%;
   border-radius: 5px;
+  /* text-overflow: clip; */
 }
 
 .meme--text {
@@ -81,8 +82,10 @@
   width: 80%;
   text-align: center;
   left: 50%;
+  /* overflow-wrap: break-word; */
+  word-wrap: break-word;
   transform: translateX(-50%);
-  margin: 15px 0;
+  margin: 15px 2px;
   padding: 0 5px;
   font-family: impact, sans-serif;
   font-size: 2em;
